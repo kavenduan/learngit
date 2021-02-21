@@ -1,0 +1,7 @@
+vi+文件名：创建+编辑，Esc 推出编辑 i执行编辑 shift+z z，保存并退出。
+git add 文件名 ：加入工作区
+git commit -m ：从工作区提交
+git status ：查看状态
+cat git ：查看内容
+git remote add origin "SSH地址"
+
