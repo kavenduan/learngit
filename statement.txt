@@ -4,4 +4,5 @@ git commit -m ：从工作区提交
 git status ：查看状态
 cat git ：查看内容
 git remote add origin "SSH地址"
+文件夹返回 ：cd..
 
