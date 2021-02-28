@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{
+			text-align: center;
+			margin-top: 100px;
+		}
+		img{
+			width: 500px;
+			height: 500px;
+			border-radius: 250px;
+			border: 1px solid gray;
+		}
+		@keyframes tu{
+			0%{
+				transform: rotate(0deg);
+			}
+			100%{
+				transform: rotate(360deg);
+			}
+		}
+		button{
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<img id="tu" src="face.jpg" alt="">
+	<audio src="Boyce Avenue - We Can't Stop.mp3" id="audio"></audio>
+	<button id="bf" onclick="bb(),xz()">播放</button>
+	<script type="text/javascript">
+		var a=document.getElementById('audio')
+		var ch=document.getElementById('bf')
+		function bb(){
+			if(a.paused){
+				a.load()
+				a.play()
+				ch.innerHTML="暂停"
+			}else{
+				a.pause()
+				ch.innerHTML="播放"
+			}
+		}
+	</script>
+</body>
+</html>
